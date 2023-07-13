@@ -44,3 +44,34 @@
             margin-bottom: 20px;
         }
         
+        .my-heading {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+          }
+          .copy-icon {
+            position: absolute;
+            right: 10px;
+            transform: translateY(-50%);
+            cursor: pointer;
+          }   
+          
+          
+
+          /* Code snippet copy message */
+.copy-message {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: brown;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .code-container:hover .copy-message {
+    opacity: 1;
+  }
